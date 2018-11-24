@@ -1,0 +1,28 @@
+.shipping-wrap {
+	position: relative;
+	max-width: 600px;
+}
+.shipping-wrap * {
+	font-size: 16px;
+	line-height: 26px;
+	box-sizing: border-box;
+}
+
+.shipping-location {
+	margin-top: 40px;
+}
+.shipping-location label {
+	display: block;
+	font-weight: 500;
+}
+.shipping-location input {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+
+.shipping-map {
+	height: 300px;
+	background: #e5e5e5;
+	margin-top: 20px;
+}

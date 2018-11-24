@@ -1,0 +1,8 @@
+.shop_table td {
+	vertical-align: top!important;
+}
+
+.pos-cart-table table,
+.pos-cart-table td {
+	border: none!important;
+}

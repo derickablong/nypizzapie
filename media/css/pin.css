@@ -1,0 +1,63 @@
+.pin-wrap * { box-sizing: border-box; }
+.pin-create-user {
+	width: 462px;
+	position: relative;	
+	border: solid 2px #ccc;
+	padding: 20px 40px 20px 20px;
+	overflow: hidden;
+}
+.pin-field {
+	float: left;
+	width: 100%;
+	margin-bottom: 0;
+}
+.pin-field label {
+	float: left;
+	width: 80px;
+	margin-top: 6px;
+}
+.pin-field input {
+	float: left;
+	width: 200px;
+	height: auto;
+	font-size: 18px;
+}
+.user_save_pin {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	width: 128px;
+	height: 100px!important;
+	margin-top: -50px!important;
+	font-size: 16px!important;
+}
+
+
+
+
+
+.pin-user-lists {
+	width: 500px!important;
+	margin-top: 30px;	
+	border-collapse: collapse;	
+}
+.pin-user-lists th {
+	padding: 10px 20px;
+	text-align: left;
+	background-color: #ccc;
+	border: solid 1px #eee;
+}
+.pin-user-lists td { border: solid 1px #eee; }
+.pin-user-lists td input[type="text"] {
+	width: 100%!important;
+	height: 46px!important;
+	padding: 6px 20px;
+	text-align: left;
+	border: none!important;	
+}
+.pin-user-lists .user_update_pin {
+	font-size: 16px;
+	padding: 6px 15px!important;
+	height: auto!important;
+	margin-top: 10px;
+}
